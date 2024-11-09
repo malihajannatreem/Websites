@@ -1,0 +1,32 @@
+.header{
+    background:linear-gradient(rgba(0, 0, 0, 0.995),rgba(0,0,0,0.6)), url("image/new\ dividelyrics.jpg") ;
+    min-height: 100vh;
+    color: #fff;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    align-content:space-between;
+    justify-content:stretch;
+}
+.menu{
+    justify-content: center;
+    padding-bottom: 10px ;
+    padding-top: 10px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+    }
+.menu a{
+    text-decoration: none;
+    color: rgb(14, 44, 246);
+    }
+
+.menu:hover{
+    opacity: 0.5;
+    background-color: black;
+    color: black;
+    border: rgb(16, 2, 2);
+    border-radius: 15%;
+    padding: 10px 10px 10px auto;
+    }

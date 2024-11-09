@@ -1,0 +1,87 @@
+.header{
+    background:linear-gradient(rgba(0, 0, 0, 0.995),rgba(0,0,0,0.6)), url("image/profile.jpg") ;
+    min-height: 100vh;
+    color: #fff;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    align-content:space-between;
+    justify-content:stretch;
+}
+
+.down-head{
+        flex: 1;
+        text-align: center;
+        width: 70vw;
+        margin: 0 auto;
+    
+    }
+.down-head h1{
+        padding: 20px 4;
+        font-size: 35;
+        border-bottom: 1px solid black;
+    }
+.down-head p{
+        opacity: 0.8;
+        font-size: 20px;
+        margin: 45px auto;
+        width: 60vw;
+        font-weight: 600;
+    }
+
+    .navigation{
+        margin-top: 50px;
+        list-style: none;
+    }
+    .navigation li a{
+        color: aliceblue;
+        cursor: pointer;
+        text-transform: capitalize;
+        text-decoration: none;
+        display: block;
+        border-bottom: 0.5px solid rgba(249,211,66,0.3);
+        opacity: 0.9;
+        letter-spacing: 1.2px;
+        transition: all 0.9s,ease;
+    }
+    .navigation li  a:hover{
+        padding-left: 15px;
+        opacity: 0.7;
+    }
+.footer{
+        color: #fff;    
+        text-align: center;
+        background: #292826;
+    }
+.footer-container{
+        color: #fff;
+        margin: 0 auto ;
+        left: 40%;
+        justify-content: center;
+    
+    }
+    .footer li{
+        list-style: none;
+    }
+.menu{
+    justify-content: center;
+    padding-bottom: 10px ;
+    padding-top: 10px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+    }
+.menu a{
+    text-decoration: none;
+    color: rgb(14, 44, 246);
+    }
+
+.menu:hover{
+    opacity: 0.5;
+    background-color: black;
+    color: black;
+    border: rgb(16, 2, 2);
+    border-radius: 15%;
+    padding: 10px 10px 10px auto;
+    }

@@ -1,0 +1,91 @@
+* {box-sizing: border-box;
+  size: 100%;
+  
+}
+body {
+  font-family: Verdana, sans-serif; 
+  background-color: #2e2828;
+  color: #f2f2f2;
+ }
+h2{
+  align-items: center;
+  width: fit-content;
+  padding: 20px;
+  margin: 0px auto;
+  justify-content: center;
+  border-bottom: 2px solid #000;
+  }
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+max-width: fit-content;
+position: relative;
+margin: auto;
+}
+
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  color: bisque;
+  user-select: none;
+  width: auto;
+  font-size: 45px;
+  font-weight: 800;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+.menu{
+justify-content: center;
+padding-bottom: 10px ;
+padding-top: 10px;
+justify-content: center;
+width: fit-content;
+margin: auto;
+cursor: pointer;
+}
+.menu a{
+text-decoration: none;
+color: #f2f2f2;
+}
+.menu:hover{
+opacity: 0.5;
+background-color: black;
+color: black;
+border: white;
+border-radius: 15%;
+padding: 10px 10px 10px auto;
+}
