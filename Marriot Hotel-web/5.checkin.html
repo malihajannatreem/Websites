@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check In</title>
+    <link rel="stylesheet" href="5.checkin.css">
+</head>
+<body>
+    <h3>Check in and Check out</h3>
+    <div class="form">  
+    <form class="info-check">
+        <div class="check">
+            <label for="fname" >Input Your First Name</label>
+            <input type="text"  id="fname" required>
+        </div>
+        <div class="lname">
+            <label for="lname" >Input Your Last Name</label>
+            <input type="text"  id="lname" required>
+        </div>
+        <div class="check">
+            <label for="e-mail" >E Mail</label>
+            <input type="email"  id="e-mail">
+        </div>
+
+        <div class= "check" id="check_in">
+            <label for="check in" >Check In</label>
+            <input type="date" id="check_in_date" required>
+        </div>
+        <div class= "check" id="check_out">
+            <label for="check out" >Check Out</label>
+            <input type="date" id="check_out_date">
+        </div>
+        <div class="check">
+            <label for="Adult">Adults</label>
+            <input id="adult"type="number" min="1" value="1" required>
+        </div>
+        <div class="check">
+            <label for="child">Child</label>
+            <input id="child"type="number" min="0" value="0">
+        </div>
+        <div class="check">
+            <label for="rooms">Rooms</label>
+            <input type="number" id="rooms">
+        </div>
+        <div class="check">
+            <input type="button" value="Book Now" class="button" id="submit" onclick="show()">
+            <input type="reset" value="Reset" class="button">
+        </div>
+    </form>
+</div>
+     <a href="https://media.gq-magazine.co.uk/photos/5d139b3ab363fa665e20d038/master/w_1920,h_1280,c_limit/grand-pavilion-suite-08-gq-1feb18_b.jpg" style="text-decoration: none;color: black;">This is the Referrence link for the background image </a>
+    <p><a href="1.menu.html">Go back to Main Page</a></p>
+    <script src="5.checkin.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Playfair Display',serif;
+    scroll-behavior: inherit;
+}
+body{
+    line-height: 1.6 ;
+}
+.button{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    width: auto;
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.button:hover{
+    opacity: o.7;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 8px 0;
+}
+.header{
+    background:linear-gradient(rgba(0, 0, 0, 0.995),rgba(0,0,0,0.6)), url("gran.jpg") ;
+    min-height: 100vh;
+    color: #fff;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    align-content:space-between;
+    justify-content:stretch;
+}
+.head-up{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-up span{
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    transition:  0.7s ease;
+    
+}
+.head-up span:hover{
+    color:yellow;
+}
+.down-head{
+    flex: 1;
+    text-align: center;
+    width: 70vw;
+    margin: 0 auto;
+
+}
+.down-head h1{
+    padding: 20px 4;
+    font-size: 35;
+    border-bottom: 1px solid whitesmoke;
+}
+.down-head p{
+    opacity: 0.8;
+    font-size: 20px;
+    margin: 45px auto;
+    width: 60vw;
+    font-weight: 600;
+}
+.head-button{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 253, 253);
+    background: transparent;
+    padding: 13px 20px;
+    background: rgba(0,0,0,0.3);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.7 ease;
+}
+.head-button:hover{
+ background: rgb(30, 136, 207) ;
+}
+@media(max-width: 1500px){
+    .head-button{
+        font-size: 17px;
+    }
+    .down-head h1{
+        font-size: 28px;
+    }
+    .down-head p{
+        font-size: 20px;
+        margin: 20px auto;
+    }
+}
+.navigation{
+    background: black;
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    width: 300px;
+    padding: 15px;
+    transition: all 0.7s,ease;
+    z-index: 10;
+
+}
+.navigation.show{
+    right: 0;
+}
+.close-button{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    transition: all 0.9s ease;
+    top: 0px;
+}
+.close-button:hover{
+ opacity: 0.5;
+  
+}
+.navigation{
+    margin-top: 50px;
+    list-style: none;
+    padding: 12px;
+}
+.navigation li a{
+    color: aliceblue;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+    border-bottom: 0.5px solid rgba(249,211,66,0.3);
+    opacity: 0.9;
+    letter-spacing: 1.2px;
+    transition: all 0.9s,ease;
+}
+.navigation li  a:hover{
+    padding-left: 15px;
+    opacity: 0.7;
+}
+.sign-in, .log-in{
+    background: rgba(253, 217, 73, 0.653);
+    color: beige;
+    text-decoration: none;
+    width: fit-content;
+    margin: 13px auto;
+}
+.sign-in:hover{
+    opacity: 0.2 ;
+    padding: 10px 12px 0px 0px;
+    
+}
+.log-in:hover{
+    opacity: 0.2 ;
+    padding: 10px 12px 5px 5px;
+}
+@media(max-width: 400px){
+    .navigation{
+        width: 100vw;
+    }
+}
+.contacts{
+    display: flex;
+    
+    margin-bottom: 20px;
+    size: 50px;
+    margin: 20px;
+
+}
+.footer{
+    color: #fff;    
+    text-align: center;
+    background: #292826;
+}
+.footer-container{
+    color: #fff;
+    padding: 20px auto;
+    margin: 0 auto ;
+    padding: 20px auto
+
+}
+.icon{
+    color: #fff;
+    cursor: pointer;
+    border-radius: 60% ;
+    margin-bottom: 10px;
+    background-color: #292826;
+    transition: all 0.7s ease-in;
+   
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon:hover{
+    opacity: 0.5;
+    background-color: white;
+    color: black;
+
+}
+.contacts ul li{
+    list-style: none;
+    height: 40px;
+    width: 50px;
+}
+iframe{
+    height: 50%;
+    width: 30%;
+}
+.items{
+    margin: 12px;
+}
+.down-head a:hover{
+    opacity: 0.5;
+    
+    border-bottom: 2px solid;
+}

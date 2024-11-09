@@ -1,0 +1,41 @@
+.form{
+    background: linear-gradient(rgba(50, 48, 48, 0.85),rgba(51, 50, 50, 0.8)),url("gran.jpg");
+    color: azure;
+    padding: 50px 50px;
+}
+.info-check{
+    display: grid;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.button{
+    margin: 18px 0 0 0;
+    background: rgb(48, 67, 67);
+    color: azure;
+    border: 1px solid white ;
+    cursor: pointer;
+    transition: all 0.7s ease-in;
+    width: fit-content;
+}
+.button:hover{
+   opacity: 0.5;
+}
+.info-check label, .info-check input:not(.button){
+    text-transform: uppercase;
+    
+    width: 100%;
+    word-spacing: 5px;
+    padding-bottom: 10px;
+    border-radius:  5px;
+    font-size: 15px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.info-check input:not(.button){
+    margin: 4px 0 16px 0;
+    
+}
